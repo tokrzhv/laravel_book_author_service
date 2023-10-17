@@ -22,6 +22,7 @@ Before you can launch this project, you need to have the following software inst
 5. Copy the `.env.example` file to `.env` and update the database credentials.
 6. Run `php artisan key:generate` to generate an application key.
 7. Run `php artisan migrate --seed` to run the database tables and seeders.
+8. Run `php artisan storage:link` to run the storage link.
 
 ### Launching
 
