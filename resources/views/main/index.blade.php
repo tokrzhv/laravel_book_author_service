@@ -3,7 +3,6 @@
 
     <div class="container">
         <div class="row">
-            @if(isset($books))
                 <div class="col-8">
                     <div class="card">
                         <div class="card-header">
@@ -38,8 +37,6 @@
                     </div>
                 </div>
 
-            @endif
-            @if(isset($authors))
                     <div class="col-4">
                         <div class="card">
                             <div class="card-header">
@@ -70,7 +67,6 @@
                         </div>
                     </div>
 
-                @endif
         </div>
     </div>
 @endsection
